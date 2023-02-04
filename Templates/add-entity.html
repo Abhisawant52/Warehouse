@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../Stylesheet/style.css" />
+		<link rel="stylesheet" href="../Stylesheet/addentity.css" />
+		<title>Warehouse</title>
+	</head>
+	<body>
+		<!-- Return button -->
+		<header>
+			<article class="">Returns</article>
+			<article class="">List</article>
+		</header>
+		<!-- form fields -->
+		<section class="main-container">
+			<section class="input-group">
+				<article>
+					<label for="Airwaybill">Airway bill No.</label>
+					<input type="text" name="Airwaybill" id="Airwaybill" />
+				</article>
+				<article>
+					<label for="Order">Order</label
+					><input type="text" name="Order" id="Order" />
+				</article>
+				<article>
+					<label for="TAG">TAG</label
+					><input type="text" name="TAG" id="TAG" />
+				</article>
+				<article>
+					<label for="Remarks">Remarks</label
+					><input type="text" name="Remarks" id="Remarks" />
+				</article>
+			</section>
+		</section>
+		<section class="capture-container">
+			<article class="button-group">
+				<button>Capture Picture</button>
+				<button>Capture Video</button>
+				<button>Clear</button>
+				<button>Save</button>
+			</article>
+			<article class="videoContainer">
+				<video id="video" width="320" height="240" autoplay></video>
+			</article>
+		</section>
+		<!-- footer -->
+		<footer>Warehouse ©2023</footer>
+		<script src="../Scripts/addNewEntity-script.js"></script>
+	</body>
+</html>

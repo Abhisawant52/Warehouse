@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="Stylesheet/style.css" />
+		<link rel="stylesheet" href="Stylesheet/login.css" />
+		<title>Warehouse</title>
+	</head>
+	<body>
+		<section class="login-Section">
+			<!--Info container name and logo-->
+			<article class="info">
+				<h1>Warehouse</h1>
+				<img src="./Assets/LOGO.png" alt="" class="logo" />
+				<h4>For all your storage needs.</h4>
+				<!-- <h4>Warehousing done right.</h4> -->
+			</article>
+			<article>
+				<!--login container username and password-->
+				<section class="login-container">
+					<h2>Login</h2>
+					<label for="username">User name:</label>
+					<input
+						type="text"
+						name="username"
+						id="username"
+						class="Input-Text"
+						placeholder="Username"
+					/>
+					<label for="username">Password:</label>
+					<input
+						type="password"
+						id="password"
+						class="Input-Text"
+						placeholder="password"
+					/>
+					<br /><br />
+					<input type="checkbox" name="Remeberme" id="" /><label
+						for="Remeberme"
+					>
+						Remeber me</label
+					>
+					<p id="error"></p>
+					<button
+						type="submit"
+						class="submit-button"
+						id="login-button"
+					>
+						Log in
+					</button>
+				</section>
+			</article>
+		</section>
+		<!-- footer -->
+		<footer>Warehouse ©2023</footer>
+		<script src="./Scripts/login-script.js"></script>
+	</body>
+</html>
+<!-- https://usefulangle.com/post/354/javascript-record-video-from-camera -->
+<!-- https://usefulangle.com/post/352/javascript-capture-image-from-camera -->

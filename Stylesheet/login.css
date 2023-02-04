@@ -1,0 +1,70 @@
+.login-Section {
+	width: 100%;
+	height: 87vh;
+	background-color: #f0f0f0;
+	padding: 5% 5% 5% 5%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.login-Section > .info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.login-Section > .info > h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-weight: 800;
+	color: #005dac;
+}
+.login-Section > .info > .logo {
+	width: 200px;
+	text-align: center;
+	margin: 20px;
+}
+.login-Section > .info > h4 {
+	font-size: 22px;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+.login-container {
+	background-color: white;
+	padding: 30px 30px;
+	border-radius: 13px;
+	box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+		rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+.login-container > h2 {
+	font-size: 25px;
+	letter-spacing: 1.5px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+label {
+	margin-top: 25px;
+}
+.Input-Text {
+	width: 100%;
+	font-size: 16px;
+	padding: 10px 10px;
+	margin: 5px 0;
+	border: 1px solid silver;
+	border-radius: 5px;
+}
+#error {
+	color: red;
+	margin: 8px 0;
+	font-weight: 600;
+}
+.submit-button {
+	width: 100%;
+	font-size: 16px;
+	margin: 20px 0;
+	padding: 5px;
+	color: #fff;
+	background-color: #0d6efd;
+	border-color: #0d6efd;
+	border-radius: 12px;
+}
